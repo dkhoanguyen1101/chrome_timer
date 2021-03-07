@@ -1,0 +1,25 @@
+{
+  "name": "Timer-inator",
+  "version": "1.0",
+  "description": "monitor you web-surfing",
+  "manifest_version": 2,
+  "content_security_policy": "script-src 'self'  'sha256-m8s3T6FMrLgRbng2ETNrKsBBG5FeKTvHP+ndaQqIy9I='; object-src 'self'",
+  "permissions": [
+    "storage",
+    "declarativeContent",
+    "activeTab",
+    "tabs"
+  ],
+  "browser_action": {},
+  "icons": {
+    "16": "images/hytayto.png",
+    "32": "images/hytayto.png",
+    "48": "images/hytayto.png",
+    "128": "images/hytayto.png"
+  },
+  "background": {
+    "scripts": [
+      "app/background.js"
+    ]
+  }
+}
